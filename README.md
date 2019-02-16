@@ -7,6 +7,13 @@ This engine can compitable with theeJs thechnology. And thie means you can olny 
 
 # API which sould be provided
 1. load
-2. change color
-3. move object
-4. 
+2. add object, remove object
+3. change object (object group) color
+3.
+3. move object (object group)
+4. show object (object group)
+5. hide object (ojbect group)
+6. blink object (object group)
+
+
+# How to use
