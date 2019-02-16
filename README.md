@@ -32,3 +32,7 @@ This engine can compitable with theeJs thechnology. And thie means you can olny 
    -> let engine = new MonEngine('myMonitor');
    -> engine.load('my json file');
    -> you can use this engine using above api
+   
+# Install
+you can install this package with below command.
+- npm --save install monengine-react-three
