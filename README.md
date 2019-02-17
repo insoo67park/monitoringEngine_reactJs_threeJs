@@ -28,10 +28,12 @@ This engine can compitable with theeJs thechnology. And thie means you can olny 
 1. Make model which you want to monitor using tool like three.js editor, blender, schech up or autodesk)
    -> If you use blender, schech up or autodesk you can extract its model as extension .dae file then import it into three.js editor and then you can modify and extract it to file extension json.
    -> Three are two kind of three.js editors (web appliation and windows based program) which has same functionality.
-2. In your monitor application
-   -> let engine = new MonEngine('myMonitor');
-   -> engine.load('my json file');
-   -> you can use this engine using above api
+2. In javascript code.
+   import MonEngine from "mon_engine";
+   let engine = new MonEngine("myWarehouseMonistor");
+   engine.load("my json file");
+   engine.addEventCallback((event)->{});
+   // you can use this engine using above apis
    
 # Install
 you can install this package with below command.
